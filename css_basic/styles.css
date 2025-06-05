@@ -2,6 +2,9 @@
 body {
   display: flex;
   flex-direction: column;
+  background-color: #f4f4f4;
+  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Make main a row flex container */
@@ -15,10 +18,46 @@ main {
 article {
   flex: 2;
   overflow-y: auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraphs inside article */
+article p {
+  line-height: 1.6;
 }
 
 /* Aside should take 1/3 of the space */
 aside {
   flex: 1;
   overflow-y: auto;
+}
+
+/* Header styling */
+header {
+  background-color: #0d3b66;
+  color: white;
+  padding: 1rem;
+}
+
+/* Footer styling */
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 10px;
+  border-top: 1px solid #ccc;
+}
+
+/* Headings border */
+h1, h2 {
+  border-bottom: 2px solid #0d3b66;
+  padding-bottom: 5px;
+}
+
+/* Logo class */
+.logo {
+  font-size: 2rem;
+  margin-right: 1rem;
 }
