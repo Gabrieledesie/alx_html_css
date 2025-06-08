@@ -1,0 +1,101 @@
+/* styles.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body default font */
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background-color: #fff; /* adjust if needed */
+  color: #333;
+}
+
+/* Header Styling */
+header {
+  background-color: #ffffff; /* Replace with Figma header background color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  border-bottom: 1px solid #ddd; /* subtle border */
+}
+
+/* Logo */
+header .logo {
+  width: 150px; /* adjust as per Figma */
+  height: auto;
+}
+
+/* Navigation */
+header nav {
+  display: flex;
+  gap: 25px;
+}
+
+header nav a {
+  color: #333333; /* Figma text color for nav links */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+header nav a:hover {
+  color: #0077ff; /* example hover color */
+}
+
+/* Banner Section */
+.banner {
+  background-image: url('./images/banner-image.png'); /* Replace with actual image */
+  background-size: cover;
+  background-position: center;
+  height: 400px; /* adjust to Figma */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff; /* text color on banner */
+  text-align: center;
+  padding: 0 20px;
+  font-family: 'Spin Cycle OT', cursive;
+}
+
+.banner h1 {
+  font-size: 3rem; /* adjust size */
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 1.25rem;
+  max-width: 600px;
+  line-height: 1.5;
+}
+
+/* Responsive tweaks (optional) */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    padding: 15px 20px;
+  }
+
+  header nav {
+    margin-top: 10px;
+  }
+
+  .banner {
+    height: 300px;
+  }
+
+  .banner h1 {
+    font-size: 2rem;
+  }
+
+  .banner p {
+    font-size: 1rem;
+  }
+}
