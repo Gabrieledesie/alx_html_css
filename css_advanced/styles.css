@@ -187,3 +187,42 @@ header nav a:hover {
   font-size: 0.95rem;
   color: #666;
 }
+/* Membership Section Styling */
+.membership {
+  background-color: #071629; /* deep background from Figma */
+  color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.membership h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.membership p {
+  font-size: 1.1rem;
+  margin-bottom: 30px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.6;
+  color: #ccc;
+}
+
+.membership button {
+  background-color: #C271FF; /* Figma button color */
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.membership button:hover {
+  background-color: #a452d1; /* darken on hover */
+}
