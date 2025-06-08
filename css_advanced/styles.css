@@ -259,3 +259,61 @@ header nav a:hover {
   line-height: 1.6;
   max-width: 800px;
 }
+/* Footer Section Styling */
+footer {
+  background-color: #071629; /* dark background */
+  color: #ffffff;
+  padding: 60px 20px 40px;
+  text-align: center;
+}
+
+footer .footer-content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+footer .footer-logo {
+  width: 150px;
+  height: auto;
+  margin-bottom: 30px;
+}
+
+footer nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 30px;
+}
+
+footer nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  transition: opacity 0.3s ease;
+}
+
+footer nav a:hover {
+  opacity: 0.7;
+}
+
+footer .social-icons {
+  margin-bottom: 30px;
+}
+
+footer .social-icons img {
+  width: 24px;
+  height: 24px;
+  margin: 0 10px;
+  vertical-align: middle;
+  transition: transform 0.3s ease;
+}
+
+footer .social-icons img:hover {
+  transform: scale(1.1);
+}
+
+footer p {
+  font-size: 0.9rem;
+  color: #ccc;
+}
