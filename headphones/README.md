@@ -15,6 +15,17 @@ This project was built as part of the ALX Frontend Curriculum to demonstrate:
 The layout is based on a Figma design by **Nicolas Philippot (UI/UX Designer)**.  
 You can find the original Figma file [here](https://www.figma.com/file/7U5l9q6G6zBDEBP63Qprvd/Headphones?type=design&node-id=0-1).
 
+---
+
+##  Mockups
+
+Below are the original design views used for layout reference:
+
+| Desktop View | Tablet View | Mobile View |
+|--------------|-------------|-------------|
+| ![Desktop](./mockups/desktop.png) | ![Tablet](./mockups/tablet.png) | ![Mobile](./mockups/mobile.png) |
+
+
 ##  Project Structure
 
 alx_html_css/
@@ -45,11 +56,11 @@ It uses media queries in the CSS file to optimize layout for mobile devices.
 
 
 
-✅ You can also open it directly by **dragging `index.html` into your browser**.
+ You can also open it directly by **dragging `index.html` into your browser**.
 
 ---
 
-## ⚙️ Features
+##  Features
 
 - 🔹 Clean, responsive layout
 - 🔹 Hover and active states for links and buttons
@@ -59,14 +70,14 @@ It uses media queries in the CSS file to optimize layout for mobile devices.
 
 ---
 
-## ⚠️ Limitations
+##  Limitations
 
-- ❌ No JavaScript (as required)
-- ❌ No Bootstrap or external CSS libraries
+-  No JavaScript (as required)
+-  No Bootstrap or external CSS libraries
 
 ---
 
-## 👨‍💻 Author
+##  Author
 
 **Edesie Gabriel**  
 GitHub: [@Gabrieledesie](https://github.com/Gabrieledesie)
